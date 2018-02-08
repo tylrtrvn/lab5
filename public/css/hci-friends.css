@@ -12,3 +12,13 @@
 h1, h2, h3, h4, h5 {
 	color: #8382BF;
 }
+
+.fakefriend img {
+	width: 200px;
+	height: auto;
+}
+
+.friend img {
+	width: 200px;
+	height: auto;
+}

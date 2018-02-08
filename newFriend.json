@@ -1,0 +1,9 @@
+{
+	"newFriend": [
+		{
+			"name": "New Friend",
+			"description": "All the new stuff.",
+			"imageURL": "http://lorempixel.com/400/400/people"
+		}
+	]
+}

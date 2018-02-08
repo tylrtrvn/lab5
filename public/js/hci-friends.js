@@ -10,8 +10,16 @@ $(document).ready(function() {
  */
 function initializePage() {
 	console.log("Javascript connected!");
+
+	/* Added click listener for clicking on friend */
+	$("a").click(friendClickerListener);
 }
 
+/* Function for clicking on friend */
+function friendClickerListener(f) {
+	f.preventDefault();	
+	$(this).text(anagrammedName($(this).text()));
+}
 function anagrammedName(name) {
 	// Thanks, Internet Anagram Server!
 	
